@@ -13,11 +13,11 @@ def parse_args():
                         help='set start of left top.')
     parser.add_argument('--right_bottom', type=float, nargs=2, default=[115.44922, 22.40578],
                         help='set end of right bottom.')
-    parser.add_argument('--z_start', type=float, nargs=1, default=18,
+    parser.add_argument('--z_start', type=int, default=20,
                         help='set start of z axis level.')
-    parser.add_argument('--z_end', type=float, nargs=1, default=18,
+    parser.add_argument('--z_end', type=int, default=20,
                         help='set end of z axis level.')
-    parser.add_argument('-t', '--thread_num', type=int, nargs=1, default=30,
+    parser.add_argument('-t', '--thread_num', type=int, default=30,
                         help='set number of threads.')
     parser.add_argument('-l', '--log', default=False, action='store_true',
                         help='set log flag.')
