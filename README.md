@@ -1,6 +1,6 @@
-# GmapDownloader
+# GoogleMapGrabber
 
-Download map with different z levels from google map
+Download maps with different z levels from Google map
 
 # Usage 
 
